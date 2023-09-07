@@ -31,3 +31,10 @@ endmodule
 module xor_module( input a, input b, output out );
     assign out = a ^ b; // out is the result of a XOR b
 endmodule
+
+// Bitwise vs. Logical Operators
+// A bitwise operation between two N-bit vectors results in an N-bit vector.
+// The ith bit of the result is the operation between the ith bit of the first vector and the ith bit of the second vector.
+// A logical operation between two N-bit vectors results in a 1-bit vector.
+// The logical operation treates en entire vector as a single boolean value (true = non-zero, false = 0).
+
