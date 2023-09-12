@@ -86,4 +86,5 @@ module top_module (
             3'b100: out_3 = 1'b1;
         endcase
     end
-)
+    
+endmodule
